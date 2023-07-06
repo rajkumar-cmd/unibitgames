@@ -6,6 +6,8 @@ let value = 4;
 
 // OUTPUT
 // First Combination For Target value
+// TIME COMPLEXITY:- O(n^2)
+// SPACE COMPLEXITY:- O(n)
 function firstCombination() {
     let firstArray=[];
     for (let i = 0; i < arr.length; i++) {
@@ -21,7 +23,10 @@ function firstCombination() {
 let result=firstCombination();
 console.log(`First Combination For “${value}” :`,result);
 
+
 // Merge into single Array
+// TIME COMPLEXITY:- O(nlogn)
+// SPACE COMPLEXITY:- O(n)
 let mergeArray=[];
 function mergeIntoSingleArray() {
     for (let i = 0; i < result.length; i++) {
